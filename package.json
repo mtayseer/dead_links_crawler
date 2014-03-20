@@ -1,0 +1,29 @@
+{
+  "name": "dead_links_crawler",
+  "version": "0.0.1",
+  "description": "Given a website URL, search all the links in this website & find dead or problematic links.",
+  "main": "dead_links_crawler.js",
+  "dependencies": {
+    "ansicolors": "~0.3.2",
+    "async": "~0.2.10",
+    "commander": "~2.1.0",
+    "cheerio": "~0.13.1",
+    "request": "~2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtayseer/dead_links_crawler"
+  },
+  "keywords": [
+    "crawler",
+    "spider",
+    "dead",
+    "links"
+  ],
+  "author": "Mohammad Tayseer",
+  "license": "BSD-2-Clause"
+}
